@@ -60,8 +60,9 @@ int main() {
 
     cout << "\nВы ввели Матрицу B:" << endl;
     printMatrix(matrixB);
-
+    
     // Сложение матриц
+    cout << "[LOG] Запуск процесса арифметического сложения матриц..." << endl;
     vector<vector<int>> sumResult = addMatrices(matrixA, matrixB, rows, cols);
     cout << "\n--- Результат сложения (A + B) ---" << endl;
     printMatrix(sumResult);
