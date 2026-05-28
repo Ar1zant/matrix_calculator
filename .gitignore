@@ -1,0 +1,18 @@
+# Visual Studio
+.vs/
+Debug/
+Release/
+x64/
+*.sln
+*.vcxproj
+*.filters
+*.user
+
+# Логи хуков
+commit.log
+
+# macOS
+.DS_Store
+*.dSYM/
+*.plist
+*.yml
