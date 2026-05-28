@@ -47,8 +47,8 @@ int main() {
     vector<vector<int>> matrixB(rows, vector<int>(cols));
 
     // Ввод данных
+    cout << "\n--- Матрица №1 ---" << endl;
     cout << "[LOG] Инициализация матричных структур выполнена успешно." << endl;
-    cout << "\n--- Первая Матрица ---" << endl;
     inputMatrix(matrixA, rows, cols);
 
     cout << "\n--- Матрица B ---" << endl;
