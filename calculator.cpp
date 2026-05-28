@@ -48,6 +48,7 @@ int main() {
 
     // Ввод данных
     cout << "\n--- Матрица №1 ---" << endl;
+    cout << "[LOG] Инициализация матричных структур выполнена успешно." << endl;
     inputMatrix(matrixA, rows, cols);
 
     cout << "\n--- Матрица B ---" << endl;
@@ -59,8 +60,9 @@ int main() {
 
     cout << "\nВы ввели Матрицу B:" << endl;
     printMatrix(matrixB);
-
+    
     // Сложение матриц
+    cout << "[LOG] Запуск процесса арифметического сложения матриц..." << endl;
     vector<vector<int>> sumResult = addMatrices(matrixA, matrixB, rows, cols);
     cout << "\n--- Результат сложения (A + B) ---" << endl;
     printMatrix(sumResult);
