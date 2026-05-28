@@ -47,11 +47,7 @@ int main() {
     vector<vector<int>> matrixB(rows, vector<int>(cols));
 
     // Ввод данных
-<<<<<<< HEAD
-    cout << "\n--- Первая Матрица ---" << endl;
-=======
     cout << "\n--- Матрица №1 ---" << endl;
->>>>>>> branch-B
     inputMatrix(matrixA, rows, cols);
 
     cout << "\n--- Матрица B ---" << endl;
